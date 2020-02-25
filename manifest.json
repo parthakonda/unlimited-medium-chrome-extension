@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+	"name": "unlimited medium.com",
+	"description": "Chrome extension which allows you to read medium content without upgrade",
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"matches": [ "<all_urls>"],
+			"js": [ "content.js" ]
+		}
+	]
+}
